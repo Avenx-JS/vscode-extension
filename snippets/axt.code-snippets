@@ -1,0 +1,25 @@
+{
+  "Avenx State": {
+    "prefix": "state",
+    "body": [
+      "<state ${1:key}=\"${2:value}\" />"
+    ],
+    "description": "Create a new Avenx state variable"
+  },
+  "Avenx Action": {
+    "prefix": "action",
+    "body": [
+      "<action name=\"${1:name}\">",
+      "\t$0",
+      "</action>"
+    ],
+    "description": "Create a new Avenx action"
+  },
+  "Avenx CSS Marker": {
+    "prefix": "cssm",
+    "body": [
+      "<@css ${1:className} />"
+    ],
+    "description": "Create a new Avenx CSS marker"
+  }
+}
